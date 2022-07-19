@@ -1,0 +1,48 @@
+#Fesil .cards .fesil_img {
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  -webkit-box-shadow: 1px 1px 3px 1px #080894;
+          box-shadow: 1px 1px 3px 1px #080894;
+}
+
+#Fesil .cards .fesil_img:hover img {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+#Fesil .cards .fesil_img img {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#Fesil .cards .name {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+#Fesil .cards button {
+  background-color: #3d95dd;
+  width: 100%;
+  padding: 10px 12px;
+  color: white;
+  border: none;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 3px 1px #080894;
+          box-shadow: 1px 1px 3px 1px #080894;
+}
+/*# sourceMappingURL=main.css.map */
